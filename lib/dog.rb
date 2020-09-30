@@ -1,5 +1,8 @@
 class Dog
-attr_reader :breed, :job
-attr_writer :breed, :job
+  attr_accessor :name
+
+def dog_with_names(name)
+  @name =name
+end
 
 end
